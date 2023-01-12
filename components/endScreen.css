@@ -1,0 +1,48 @@
+.btn-reset{
+    background-color:#161E54;
+    font-size:1.1235rem;
+    padding:0.6rem 1rem;
+    margin-right:1.4rem;
+}
+
+.btn-reset:hover{
+    background-color:#e63946;
+}
+
+.btn-close{
+    background-color:#e63946;
+    padding:0.6rem 1rem;
+    font-size:1.125rem;
+}
+
+.btn-close:hover{
+    background-color:#161E54;
+}
+
+.content{
+    max-width:inherit;
+    overflow:hidden;
+}
+
+.modal-card-body ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+}
+
+.modal-card-body ul li{
+    max-width:80%;
+    display:inline-block;
+}
+
+.modal-card-body ul p{
+    padding:8px;
+    line-height:1.6em;
+    border-radius:5px;
+}
+
+.modal-card-body ul li + li {
+    margin-right:10px;
+}
